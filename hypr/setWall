@@ -1,0 +1,4 @@
+#!/bin/sh
+
+
+swww img ~/Pictures/wallpapers/$(ls ~/Pictures/wallpapers | shuf -n 1) --transition-type any --transition-step 20 --transition-fps 60
